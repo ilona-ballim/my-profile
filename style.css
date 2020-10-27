@@ -1,0 +1,157 @@
+/*colors and fonts */
+body {
+ background-color: white;
+ color: rgb(50, 50, 50);
+ font-family: Century Gothic;
+ font-weight: 200;
+ font-size: 17px;
+ background-image: url(images/mountains.jpg);
+ background-size: cover;
+}
+
+h1, h2, h4  {
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  color: rgba(0, 85, 102, 1);
+  font-size: 32px;
+  font-weight: 800
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h4  {
+  font-weight: lighter;
+}
+
+a {
+  color: rgb(0, 85, 102);
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+/*custom design with class */
+
+.container {
+  width: 700px
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  width: 1000px;
+  background: rgba(250, 250, 250, 0.85);
+  margin: 60px auto;
+  padding: 25px 10px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-style: solid;
+  border-width: 8px;
+  border-color: rgba(250, 250, 250, 0.1);
+}
+
+.card-white:hover {
+  border-color: rgba(221, 197, 195, 1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.dog-width {
+  max-width: 30%;
+  max-height: 60%;
+}
+
+.world-width {
+  max-width: 45%;
+  max-height: 60%;
+}
+
+.text-bold {
+  font-family:'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(0, 85, 102);
+}
+
+.btn-green {
+  background-color: rgba(0, 85, 102, 0.8);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.btn-green:hover {
+  background-color: rgba(0, 85, 102, 1);
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgba(0, 85, 102, 0.5);
+}
+.list-inline i:hover {
+  color: rgba(0, 85, 102, 1);
+}
+
+.list-indent {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.dog-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.world-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#banner p {
+  margin-bottom: 30px;
+}
+
+#profile {
+  width: 200px;
+}
